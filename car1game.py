@@ -1,8 +1,6 @@
-"""
-@author: Randhir Kumar
-@email: randhirkumarsonukumar@gmail.com
-@date: 13-september-2020
-"""
+'''
+@author:natesan-01
+'''
 import random
 from time import sleep
 
