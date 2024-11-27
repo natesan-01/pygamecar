@@ -1,5 +1,5 @@
 '''
-@author:natesan-01
+natesan-01
 '''
 import random
 from time import sleep
