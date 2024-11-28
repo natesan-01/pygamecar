@@ -128,21 +128,4 @@ class CarRacing:
     def run_enemy_car(self, thingx, thingy):
         self.gameDisplay.blit(self.enemy_car, (thingx, thingy))
 
-    def highscore(self, count):
-        font = pygame.font.SysFont("lucidaconsole", 20)
-        text = font.render("Score : " + str(count), True, self.white)
-        self.gameDisplay.blit(text, (0, 0))
 
-    def display_credit(self):
-        font = pygame.font.SysFont("lucidaconsole", 14)
-        text = font.render("Thanks & Regards,", True, self.white)
-        self.gameDisplay.blit(text, (600, 520))
-        text = font.render("Randhir Kumar", True, self.white)
-        self.gameDisplay.blit(text, (600, 540))
-        text = font.render("randhirkumarsonukumar@gmail.com", True, self.white)
-        self.gameDisplay.blit(text, (600, 560))
-
-
-if __name__ == '__main__':
-    car_racing = CarRacing()
-    car_racing.racing_window()
